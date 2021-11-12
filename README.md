@@ -4,11 +4,12 @@ Configuration for the i3 window manager: [i3wm](https://github.com/i3/i3)
 
 ```shell
 # Install basic i3wm
-sudo apt install i3
-sudo apt install i3-wm dunst i3lock i3status suckless-tools
-sudo apt install compton hsetroot rxvt-unicode xsel rofi fonts-noto fonts-mplus xsettingsd lxappearance scrot viewnior
+sudo apt install -y i3 i3-wm i3status hsetroot 
 
-# Configuration
-cp i3-config ~/.config/i3/config
-cp i3status-config ~/.config/i3status/config
+# Maybe install
+sudo apt install -y dunst i3lock suckless-tools compton rxvt-unicode xsel rofi fonts-noto fonts-mplus xsettingsd lxappearance scrot viewnior
+
+# Setup
+./scripts/clean.sh
+./scripts/install.sh
 ```
