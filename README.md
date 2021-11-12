@@ -9,7 +9,9 @@ sudo apt install -y \
   i3-wm \
   i3status \
   hsetroot 
+```
 
+```shell
 # Maybe install
 sudo apt install -y \
   dunst \
@@ -21,7 +23,9 @@ sudo apt install -y \
   lxappearance \
   scrot \
   viewnior
+```
 
+```shell
 # Setup
 ./scripts/clean.sh
 ./scripts/install.sh
