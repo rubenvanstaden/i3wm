@@ -82,7 +82,6 @@ bindsym $super+Shift+9 move container to workspace 9
 # Panel
 bar {
 
-  height 25
   position top
   tray_output none
   status_command i3status
