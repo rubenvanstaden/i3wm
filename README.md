@@ -8,7 +8,9 @@ sudo apt install -y \
   i3 \
   i3-wm \
   i3status \
-  hsetroot 
+  hsetroot \ # wallpaper
+  xsel \ # copy to clipboard
+  xsettingsd \ # xorg settings
 ```
 
 ```shell
@@ -17,9 +19,7 @@ sudo apt install -y \
   dunst \
   suckless-tools \
   compton \
-  xsel \
   rofi \
-  xsettingsd \
   lxappearance \
   scrot \
   viewnior
