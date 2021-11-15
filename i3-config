@@ -5,7 +5,6 @@ set $super Mod1
 font pango: Fira Code 10
 
 # Use Mouse+$super to drag floating windows to their wanted position
-#floating_modifier $super
 focus_follows_mouse no
 
 # Autostart
@@ -28,28 +27,11 @@ bindsym $super+n exec nautilus
 bindsym $super+Return exec alacritty
 bindsym $super+b exec brave-browser
 
-# # Start dmenu (a program launcher)
-# bindsym $super+d exec rofi \
-#   -lines 3 \
-#   -padding 10 \
-#   -width 20 \
-#   -location 0 \
-#   -show drun \
-#   -sidebar-mode \
-#   -columns 1 \
-#   -font 'Fira Code 10'
-
 # Change focused window
 bindsym $super+h focus left
 bindsym $super+j focus down
 bindsym $super+k focus up
 bindsym $super+l focus right
-
-# # Move focused window
-# bindsym $super+Shift+h move left
-# bindsym $super+Shift+j move down
-# bindsym $super+Shift+k move up
-# bindsym $super+Shift+l move right
 
 # Split orientation
 bindsym $super+z split h;
@@ -88,14 +70,7 @@ bar {
 
   colors {
     background #2f343f
-    # statusline #2f343f
-    # separator #4b5262
-
-    # colour of border, background, and text
-    # focused_workspace       #2f343f #bf616a #d8dee8
-    # active_workspace        #2f343f #2f343f #d8dee8
     inactive_workspace      #2f343f #2f343f #d8dee8
-    # urgent_workspacei       #2f343f #ebcb8b #2f343f
   }
 }
 
