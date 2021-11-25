@@ -24,7 +24,8 @@ bindsym $super+c kill
 
 # Start programs
 bindsym $super+n exec nautilus
-bindsym $super+Return exec alacritty
+bindsym $super+Return exec $HOME/.cargo/bin/alacritty
+bindsym $super+t exec gnome-terminal
 bindsym $super+b exec brave-browser
 
 # Change focused window
