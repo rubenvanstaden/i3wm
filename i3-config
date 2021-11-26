@@ -11,6 +11,7 @@ focus_follows_mouse no
 exec --no-startup-id hsetroot -full ~/Pictures/slackware-0.png
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
+exec --no-startup-id insync start
 exec --no-startup-id xset -dpms s off
 
 # Logout i3
