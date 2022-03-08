@@ -23,6 +23,8 @@ bindsym $super+Shift+r restart
 bindsym $super+f fullscreen toggle
 # Kill focused window
 bindsym $super+c kill
+# Take a screenshot
+bindsym $super+p flameshot gui -p $HOME/Downloads
 
 # Start programs
 bindsym $super+n exec nautilus
