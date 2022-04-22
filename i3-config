@@ -32,6 +32,7 @@ bindsym $super+Return exec $HOME/.cargo/bin/alacritty
 bindsym $super+t exec gnome-terminal
 bindsym $super+b exec brave-browser
 bindsym $super+s exec subl
+bindsym $super+r exec roam-research
 
 # Change focused window
 bindsym $super+h focus left
