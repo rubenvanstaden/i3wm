@@ -3,10 +3,7 @@
 Configuration for the i3 window manager: [i3wm](https://github.com/i3/i3)
 
 * Slackware
-```shell
-- https://i3wm.org/downloads/
-- https://slackbuilds.org/repository/15.0/desktop/i3/
-```
+- [slackbuild](https://slackbuilds.org/repository/15.0/desktop/i3/)
 
 * Ubuntu
 ```shell
