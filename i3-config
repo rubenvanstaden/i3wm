@@ -29,8 +29,8 @@ bindsym $super+p flameshot gui -p $HOME/Downloads
 # Start programs
 bindsym $super+n exec nautilus
 bindsym $super+Return exec $HOME/.cargo/bin/alacritty
-bindsym $super+t exec gnome-terminal
 bindsym $super+b exec brave-browser
+bindsym $super+n exec firefox
 bindsym $super+s exec subl
 bindsym $super+r exec roam-research
 
